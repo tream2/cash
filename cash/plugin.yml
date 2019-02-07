@@ -1,0 +1,19 @@
+﻿name: cash
+author: tream
+main: tream\cash
+api: [2.0.0, 3.0.0-ALPHA3]
+version: 1
+
+commands:
+  캐쉬:
+    permission: cash.command
+    description: §b§l[ §f캐쉬 플러그인 §b]
+  캐쉬관리:
+    permission: cashOP.command
+    description: §b§l[ §f캐쉬관리 플러그인 §b]
+
+permissions:
+          cash.command:
+            default: true
+          cashOP.command:
+            default: OP
